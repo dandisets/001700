@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -15,8 +16,8 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 287783337926
-  numberOfFiles: 410
+  numberOfBytes: 291060347864
+  numberOfFiles: 411
   numberOfSubjects: 45
   schemaKey: AssetsSummary
   species:
@@ -29,10 +30,23 @@ citation: Hoglen, Nerissa (2026) Loss of oxytocin receptor function disrupts neu
   signatures of pair bonding and fidelity in the nucleus accumbens (Version draft)
   [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001700/draft
 contributor:
+- email: long37@illinois.edu
+  identifier: 0000-0002-4579-8912
+  name: Long, Kimberly
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
 - affiliation: []
   email: nerissa.hoglen@ucsf.edu
+  identifier: 0000-0002-4841-4275
   includeInCitation: true
   name: Hoglen, Nerissa
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: devanand.manoli@ucsf.edu
+  identifier: 0000-0002-7238-2330
+  name: Manoli, Devanand
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
@@ -61,6 +75,7 @@ description: The formation of enduring relationships dramatically influences fut
   and the neural processing of sensory cues and social interactions with novel individuals,
   unmasking underlying sex differences in the neural pathways regulating the formation
   of long-term relationships.
+ethicsApproval: []
 id: DANDI:001700/draft
 identifier: DANDI:001700
 license:
@@ -69,8 +84,10 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001700/versions/draft/assets/
 name: Loss of oxytocin receptor function disrupts neural signatures of pair bonding
   and fidelity in the nucleus accumbens
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/001700/draft
 version: draft
+wasGeneratedBy: []
