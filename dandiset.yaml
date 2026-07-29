@@ -27,8 +27,8 @@ assetsSummary:
   variableMeasured:
   - ProcessingModule
 citation: Hoglen, Nerissa (2026) Loss of oxytocin receptor function disrupts neural
-  signatures of pair bonding and fidelity in the nucleus accumbens (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001700/draft
+  signatures of pair bonding and fidelity in the nucleus accumbens (Version 0.260729.2330)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001700/0.260729.2330
 contributor:
 - email: long37@illinois.edu
   identifier: 0000-0002-4579-8912
@@ -51,6 +51,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2026-01-19T18:06:18.983494+00:00'
+datePublished: '2026-07-29T23:30:42.854708+00:00'
 description: The formation of enduring relationships dramatically influences future
   behavior, promoting affiliation between familiar individuals. The neural mechanisms
   of how such attachments are encoded to elicit and reinforce specific social behaviors
@@ -75,19 +76,32 @@ description: The formation of enduring relationships dramatically influences fut
   and the neural processing of sensory cues and social interactions with novel individuals,
   unmasking underlying sex differences in the neural pathways regulating the formation
   of long-term relationships.
+doi: 10.48324/dandi.001700/0.260729.2330
 ethicsApproval: []
-id: DANDI:001700/draft
+id: DANDI:001700/0.260729.2330
 identifier: DANDI:001700
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001700/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001700/0.260729.2330/assets.yaml
 name: Loss of oxytocin receptor function disrupts neural signatures of pair bonding
   and fidelity in the nucleus accumbens
+publishedBy:
+  endDate: '2026-07-29T23:30:42.854708+00:00'
+  id: urn:uuid:14908a9b-e04d-43f0-a608-ec3a6b09fdc4
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-07-29T23:30:42.854708+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:34341454-1f91-4887-bf16-221e54acef8e
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/001700/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001700/0.260729.2330
+version: 0.260729.2330
 wasGeneratedBy: []
